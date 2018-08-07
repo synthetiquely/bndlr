@@ -6,6 +6,8 @@ A tiny javascript bundler
 // Entry file entry.js
 import message from './message.js';
 
+console.log(message);
+
 // message.js
 export default 'Hello world!';
 
